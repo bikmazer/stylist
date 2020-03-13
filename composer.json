@@ -1,7 +1,11 @@
 {
-  "name": "floatingpoint/stylist",
-  "description": "Laravel 5 theming package.",
+  "name": "capham/stylist",
+  "description": "Laravel theming package.",
   "authors": [
+    {
+      "name": "Ca Pham",
+      "email": "capham89@gmail.com"
+    },
     {
       "name": "Kirk Bushell",
       "email": "torm3nt@gmail.com"
@@ -12,9 +16,9 @@
     }
   ],
   "require": {
-    "php": "^7.0",
-    "laravelcollective/html": "~5.5",
-    "illuminate/support": "~5.5"
+    "php": ">=7.2",
+    "laravelcollective/html": "^6.0",
+    "illuminate/support": "~5.5 || ^6.0 || ^7.0"
   },
   "require-dev": {
     "mockery/mockery": "^0.9.5",
